@@ -1,5 +1,4 @@
-public class App {
-    public static void main(String[] args) throws Exception {
+public class App public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
         // Tipos de Datos y Operadores
         int resultado = 15 + 32;
@@ -16,5 +15,26 @@ public class App {
         resultado = +resultado;
 
         // Operadores Logícos
+        boolean respuesta = true;
+        respuesta = 5 > 8;
+        respuesta = 5 < 8;
+        respuesta = 5 >= 8;
+        respuesta = 5 <= 8;
+        respuesta = 5 != 8; //diferente
+        respuesta = 5 == 8; //igual
+        respuesta = 12 < 5 && 4 > 1; // && = and en python
+        respuesta = 14 < 25 || 1 > 5; // || = or en python
+
+        //Operadores bit a bit
+        //&
+        //^
+        //|
+
+        //Estructuras de Control
+        if (respuesta) {
+            //Bloque de código
+            
+        }
+
     }
  }
